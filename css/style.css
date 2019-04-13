@@ -3,11 +3,11 @@
 }
 */
 /*MY VERSION*/
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 html,body{
   font-family:"Trebuchet MS", Verdana, serif;
   text-align:left;
@@ -30,7 +30,7 @@ blockquote{
   font-style:italic;
 }
 #lista li {
-     display:inline block;
+     display:inline;
      padding-left:3px;
      padding-right:3px;
 }
@@ -40,17 +40,17 @@ blockquote{
 p{
   color:#24292e;
 }
-hr{ 
+/*hr{ 
     margin-top: 45px;
     border: 0.5px solid #808080;
     opacity:0.3;
     width: 80%; 
-}
-.date {
+}*/
+/*.date {
     color:#808080; 
     font-size: 0.75em; 
     margin: 30px;
-}
+}*/
 
 p:nth-of-type(5) {
     margin-top: 25px;
